@@ -1,6 +1,6 @@
 pipeline {
 
-agent { node { label 'Linux-Demo' } }
+agent { node { label 'master' } }
 tools {
         maven 'maven3.3.9' 
         jdk 'jdk1.8'
